@@ -3,8 +3,8 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library", "go_test")
 
 # 构建二进制程序
 go_binary(
-    name = "hello",
-    srcs = ["hello.go"],
+    name = "main",
+    srcs = ["main.go"],
     deps = [":greeter"],
 )
 
