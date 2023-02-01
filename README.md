@@ -1,0 +1,1 @@
+# bazel-golang-minimal-example
